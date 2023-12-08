@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html avanzado</title>
+</head>
+
+<body>
+ <h1>Ejemplo de traba</h1>   
+    <!-- Las tablas son un conjunto de datos compuesto por filas y columnas-->
+<caption>Tabla Nombres</caption> <!--Caption representa un título descriptivo de una tabla -->
+<table border= "1"> <!--Crea el elemento tabla, con el atributo border le añadimos bordes a nuetra tabla-->
+<tr><!-- Representa una fila--> 
+    <th>encabezado</th><!--representa las celdas del encabezado-->
+<th>encabezado2</th>
+</tr>
+<tr>
+<td>Nombre 1</td><!--Representa la primera celda de la primera fila-->
+<td>apellido 1</td><!--Representa la segunda celda de la primera fila-->
+</tr>
+
+<tr>
+<td>Mariana</td>
+<td>Valladolid</td>
+</tr>
+<tr>
+<td>Daniela</td>
+<td>De la cruz</td>
+</tr>
+
+</table>
+</body>
+</html>
+
+<br>
+
+<caption> Errores de nombre</caption>
+<table border="1">
+<tr>
+<th>encabezado</th>
+<th>Encabezado 2</th>
+</tr>
+<tr>
+<td>nombre </td>
+<td>apellido</td>
+
+</tr>
+<td>nombre2</td>
+<td>apellido2</td>
+</tr>
+
+<caption>Errores en mi nombre</caption><!--Título descriptivo de la tabla-->
+<table border="1">
+        <tr><!--Fila de la tabla-->
+            <th>Persona 1</th><!--Encabezado de la tabla-->
+            <th>Persona 2</th>
+            <th>Persona 3</th>
+            <th>Persona 4</th>
+            <th>Persona 5</th>
+            <th>Persona 6</th>
+            <th>Persona 7</th>
+            <th>Persona 8</th>
+            <th>Persona 9</th>
+        </tr>
+        <tr>
+            <th>Primer Nombre</th><!--Primer nombre-->
+            <td>Cindy</td><!--Primer nombre-->
+            <td>Martin</td>
+            <td>Brenda</td>
+            <td>Diego</td>
+            <td>Rey</td>
+            <td>Rocio</td>
+            <td>Rodrigo</td>
+            <td>Uriel</td>
+            <td>Ximena</td>
+        </tr>
+        <tr class="error">
+            <th>Error</th>
+            <td>Sindi</td><!--Error Primer nombre-->
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>Reynaldo</td>
+            <td>Rosío</td>
+            <td>Ricardo</td>
+            <td>NA</td>
+            <td>Jimena</td>
+        </tr>
+        <tr>
+            <th>Segundo Nombre</th>
+            <td>Nereida</td><!--Segundo nombre-->
+            <td>Monserrat</td>
+            <td>Elizabeth</td>
+            <td>Arturo</td>
+            <td>David</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+        </tr>
+        <tr class="error">
+            <th>Error</th>
+            <td>Nereyda</td><!--Error Segundo nombre-->
+            <td>Montserrath</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+            <td>NA</td>
+        </tr>
+        <tr>
+            <th>Primer Apellido</th>
+            <td>Rejón</td><!--Primer apellido-->
+            <td>Rodriguez</td>
+            <td>Arrieta</td>
+            <td>González</td>
+            <td>Martínez</td>
+            <td>Hernández</td>
+            <td>Macedo</td>
+            <td>Cardoso</td>
+            <td>Muñoz</td>
+        </tr>
+        <tr class="error">
+            <th>Error</th>
+            <td>Rejon</td><!--Error Primer apellido-->
+            <td>Rodrigues</td>
+            <td>Arriaga</td>
+            <td>Gonsales</td>
+            <td>NA</td>
+            <td>Hernandes</td>
+            <td>Marcelo</td>
+            <td>Cardozo</td>
+            <td>NA</td>
+        </tr>
+        <tr>
+            <th>Segundo Apellido</th>
+            <td>Hernández</td><!--Segundo apellido-->
+            <td>Cortez</td>
+            <td>Delgado</td>
+            <td>Rodríguez</td>
+            <td>Olivares</td>
+            <td>Gutiérrez</td>
+            <td>Valencia</td>
+            <td>Ortiz</td>
+            <td>Diaz</td>
+        </tr>
+        <tr class="error">
+            <th>Error</th>
+            <td>Hernandes</td><!--Error Segundo apellido-->
+            <td>Córtes</td>
+            <td>NA</td>
+            <td>Rodrigues</td>
+            <td>Olívares</td>
+            <td>Gutierres</td>
+            <td>Balencia</td>
+            <td>Ortis</td>
+            <td>Dias</td>
+        </tr>
+    </table>
+
+
+    <table>
+<br>
+<table border="1">
+<thead><!--esta etiqueta agrupos los elementos de la cabecera en la tabla-->
+    <tr>
+<th colspan="3">Encabezado de tablas</th> <!--Permite expandir las celdas de datos o de encabezados al número de columnas que deseemos que ocupe-->
+    </tr>
+</thead>
+<tbody><!--esta etiqueta agrupa los elementos de contenido en la tabla-->
+    <tr>
+        <td>El cuerpo de la tabla</td>
+        <td>con 2 columnas</td>
+        <td>columna</td>
+    </tr>
+</tbody>
+<tr>
+    <th colspan="3">piesitos</th>
+</tr>
+<tfoot>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <h1 id="anclajes">anclajes: Interno y externo</h1>
+    <a href="#seccion1">¿Cómo adoptar a una mascota?</a>
+    <a href="#seccion2">Antes de llevar a un peludito a casa, debe terner en mente que esu na responsabilidad monetarioa a largo plazo y que ellos merecen que les demos vida digna.</a>
+    <br>
+    <a href="#seccion3">¿cuánto cuesta mantener una mascota?</a>
+    <a href="#seccion4">Dueño responsable</a>
+    <h2 id="seccion1">¿Cómo adoptar a una mascota?</h2>
+    <h2>¿Cómo adoptar a una mascota?</h2>
+    <br>
+    <img src="https://www.eleconomista.com.mx/__export/1650592718322/sites/eleconomista/img/2022/04/21/grafico_eleconomista_mexico_finanzas_personales_adopcion_de_mascotas_consejos.png_1947833983.png" alt="referencia" widht="400px">
+    <br>
+    <h4 id="seccion2">Antes de llevar a un peludito a casa, debe terner en mente que esu na responsabilidad monetarioa a largo plazo y que ellos merecen que les demos vida digna.</h4>
+    <p>Según cifras de MSD Salud Animal México, aproximadamente 57% de las familias tiene una mascota, de las cuales, 15% tiene al menos un gato, mientras que 9.6 millones de perros forman parte de una familia.
+
+        Durante la pandemia de Covid-19 hubo un incremento de 41% en la búsqueda de adopción de mascotas, debido a que durante el confinamiento muchas personas sufrieron altos niveles de estrés y ansiedad.
+        
+        Varios estudios han comprobado que el tener una mascota en casa tiene beneficios tanto físicos como emocionales, pero ellos también tienen necesidades, por lo que debemos ver por su alimentación, salud, diversión, accesorios, aseo, etc., lo cual podría repercutir en nuestro bolsillo.</p>
+        <br>
+        <br>
+        <h3 id="seccion3">Dueño responsabilidad</h3>
+        <p>El gobierno realiza campañas de vacunación y esterilización gratuitas, incluso la Facultad de Medicina Veterinaria y Zootecnia de la UNAM puso a disposición servicios de esterilización con costos de recuperación desde 650 a 1,200 pesos.</p>
+        <a href="index.html">regresar al inicio</a>
+        <a href="#anclajes">Articulo</a>
+<br>
+<br>
+<br>
+        <h2> Anclaje externo</h2>
+        <br>
+        <h6>Referenciar un artículo dentro de otro</h6>
+        <a href="https://www.telediario.mx/comunidad/refugios-de-animales-en-guadalajara-para-adopcion" target="_blank">Refugios GDL</a><!--Estos anclajes enlazan a una página web diferente. El calor del atrivuto href es la URL completa del sitio web de destino y el identificador de la sección-->
+<h5> Anclar número telefónico</h5>
+<a href="tel:+525543215684">Llamar a fulanito</a>
+<br>
+<h5>Anclaje de whatsApp</h5>
+<a href="https://wa.me/1234567890">envíanos un mensaje</a> <!--estos enlaces abren whasapp en un navegador o en la aplicación movil, para que los usuarios puedan enviar mensajes al número predefinido-->
+<br>
+<h5>Anclaje de mapa</h5>
+<a href="https://www.google.com.mx/maps/place/Playa+del+Carmen,+Q.R./@20.6565827,-87.1213568,13z/data=!3m1!4b1!4m6!3m5!1s0x8f4e4323d22d4e61:0xe8c10b783bab4adc!8m2!3d20.6295586!4d-87.0738851!16zL20vMDF3dnkz?entry=ttu"target="black">ver ubicación </a>
+<!--Estos enlaces nos permiten enlazar ubicaciones específicas en servicios de mapas, ya sea con Google, para que los usuarios puedan tener la referencia-->
+<br>
+<h5>Anclaje de redes sociales</h5>
+<a href="https://www.facebook.com/VegattosMx" target="_blank">facebook de vegatos</a>
+<br>
+<hr>
+<br>
+<h1>Formularios y tipos de entrada</h1>
+<form action="Procesar_formulario" method="post"></form><!--
+    
+    La etiqueta form, se utiliza para crear un formulario en HTML que permite a los usuarios ingresar información
+ 
+    action: especifica a la URL a la que se enviarán los datos del formulario cuando este se envía.
+
+Method: Define el método HTTP que se utilizará para enviar los datos (puede ser "get"o "post")-->
+<br>
+<h4>Etiqueta input</h4><!--La etiqueta input se utiliza para crear campos de entrada en un formulario-->
+<input type="text" name="usuario" placeholder="Nombre"><!--Placeholder le indica al usuario que poner dentro del recuadro-->
+<input type="password" name="contraseña"placeholder="contraseña"> <!--Type: Define el tipo de entrada (texto, contraseña, correo electrónico, etc.).
+
+Name: Es el nombre del campo, utilizado para identificar el dato cuando se envía el formulario.
+
+Placeholder: proporciona un teto de ejemplo dentro del campo de entrada-->
+<br>
+<br>
+<h4>Etiqueta label</h4>
+<!--La etiqueta label se utiliza para etiquetar de entrada en un formulario, lo que mejora la accesibilidady la experiencia del usuario. aquí un link de referencia https://developer.mozilla.org/es/docs/Web/HTML/Element/textarea-->
+<label for="usuario">usuario: <!--es un atributo que se asocia con el "id" de un elemento de entrada para indicar a qué campo de refiere-->
+    <input type="text"id="usuario" Name="usuario">
+</label>
+<br>
+<h4>Etiqueta button</h4>
+<!--Esta etiqueta se utiliza para crear botones en un formulatio que los usuarios pueden usar para hacer clic y enviar información-->
+<button type="submit">enviar</button>
+<button type="reset">reset</button>
+<!--type:Define el tipo de botón-->
+<br>
+<h4>Area de texto</h4>
+<textarea name="comentarios"id="comentarios" cols="50"rows="10"placeholder="ponga sus comentarios"></textarea>
+    <br>
+    <h4>Número</h4>
+    <!--Este tipo de entrada crea un campo de entrada para números-->
+    <input type="number" name="number"Placeholder="agregue su número telefónico">
+    <br>
+    <h4>correo electrónico</h4>
+    <input type="email" name="correo"placeholder= "ingrese su correo electrónico"> <!--permite poner un correo electrónico-->
+    <br>
+    <h4>Número telefónico (tel)</h4>
+    <input type="tel" name="telefono"placeholder="ingrese su número"><!--indica que pongas números-->
+    <br>
+    <h4>Fecha</h4>
+    <input type="date"name="Fecha"> <!--te dice que pongas la fecha. Tira un recuadro para ponerla más específico-->
+    <br>
+    <h4>Hora</h4>
+    <input type="time" name="hora"> <!--te dice que pongas la hora en números-->
+    <br>
+    <h4>Archivo (file)</h4>
+    <input type="file" name="archivo"> <!--te dice que pongas un archivo de tu computadora-->
+<br>
+<br>
+<br>
+
+
+<div>
+
+<h1>Formulario de adopción
+    
+</div>

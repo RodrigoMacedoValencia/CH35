@@ -1,0 +1,206 @@
+:root /* 
+Enfoque de diseño basado en sistemas para establecer reglas y patrones escalables y reutilizables.
+Se personalizan variables para acceder a cualquier valor de una propiedad mediante la pseudoclase ":root" con la sintaxis --nombre-variable 
+*/{ 
+   /* --nombre-variable */
+   --font-primary:'Poppins',sans-serif;
+   --color-primary: #A60311;
+   --color-secondary: #D9042B;
+   --color-text-primary: #D9CCB4;
+   --color-text-secondary: #D98E04;
+   --color-background: #590219;
+   --color-light: #F2F2F2;
+   --color-dark: #070C26;
+ }
+
+body {
+background-color: var(--color-background);
+color: var(--color-light);
+font-family: var(--font-primary);
+}
+
+.position{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-dark);
+}
+#static{
+    position: static;
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+background-color: var(--color-text-secondary);
+/* Es posicionado de forma relativa al elemento anterior o posición original y si permite movimiento mediante propiedades top, bottom, left, right */
+}
+#relative{
+    position: relative;
+    top: 5000px;
+    left: 200px;
+    background-color: var(--color-primary)}
+/*posiciona de forma relativa a su anscestro más cercano y no con respecto al viewport*/
+#absolute{
+    position: absolute;
+    color: var(--color-dark);
+    background-color:var(--color-light);}
+
+/* este será el ancestro sobre el cual se moverá el hijo */
+#ancestro{
+position: absolute;
+width: 100px;
+height: 100px;
+background-color: var(--color-dark);
+border: solid var(--color-light)1px;
+}
+
+/* Nos permite mantener el elemento de manera fija en el viewport
+/*#fixed{
+    left: 350px;
+    top: 500px;
+    position:fixed;
+    background-color: cadetblue;
+}*/
+
+#chat{
+    /* border: solid var(--color-light)1px; */
+    position:fixed;
+    top:550px;
+    left: 400px;
+    width: 60px;
+    height: 60px;
+}
+
+#whatsapp-icon{
+    width: 100%;
+}
+
+.display-inline {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-text-primary);
+    color: var(--color-dark);
+    text-align: center;
+    margin: 2px;
+}
+
+#display-1, #display-2 {
+    display: inline;
+}
+
+.display-block 
+{display:block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-secondary);
+    text-align: center;
+    margin: 2px;
+}
+.display-inlineblock 
+{display:block;
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-secondary);
+    text-align: center;
+    margin: 2px;
+}
+
+    .displaynone {
+        display: none;
+    }
+    /* display flex.Me permite trabajar de manera flexible con elementos anidados dentro de una ancestro. EL flexbox se aplica en el container y tiene efecto sobre los hijos.Por default, la dirección de flex es en filas (row).Vamos a poder acceder a diversas propiedades para modificar el comportamiento de los elementos.
+    Flex direction: Colum, colum-reverse, row y row-reverse
+    flex-wrap: wrap,nowrap,wrap-reverse
+    justify-content:center,felx-start- flex-end,space between
+    alig-item:start,end,center
+    align-self: flex-start, flex end
+    */
+.container {  
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+    justify-content: space-between;
+    align-content: center;
+
+    width: auto;
+    height: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--color-text-secondary);}
+
+    .display-flex
+    { 
+        left: 50;
+        width: 100px;
+        height: 80px;
+        margin: 5px;
+        padding: 2px;
+        text-align: center;
+        border-radius: 6px;
+        background-color: var(--color-background);}  
+
+        #item-6 
+        {
+            align-self: center;
+        }
+
+        .display-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+         a{
+            text-decoration: none;
+            color: var(--color-light); }
+        
+.grid 
+        {
+            display: grid;
+            grid-template-columns: auto auto;
+            gap: 20px;
+            grid-template-rows: auto;
+            padding: 10px;
+        }
+        .display-grid
+        {
+            background-color: var(--color-text-secondary);
+            border-radius: 3px;
+            padding: 20px;
+            text-align: center;
+            border: solid var(--color-text-primary)1px;
+        }
+
+        .container-1 {
+            display: grid;
+            width: auto;
+            height: 500px;
+            border: solid var(--color-text-primary) 0.7px;
+            text-align: center;
+            margin: 10px;
+            font-size: 18px;
+        }
+        
+        header {
+            background-color:darkviolet;
+        }
+        
+        nav {
+            background-color:darkslategray;
+        }
+        
+        aside {
+            background-color: seagreen;
+        }
+        
+        section {
+            background-color: peru;
+        }
+        
+        article {
+            background-color: tomato;
+        }
+        
+        footer {
+            background-color: deepskyblue;
+        }
