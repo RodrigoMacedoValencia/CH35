@@ -1,4 +1,4 @@
-//Rodrigo Macedo y karen Maldonado 
+//Rodrigo Macedo y karen Morales 
 //Karen tiene un puntaje 5/5.Avanzado.
 
 // Obtener el formulario y asignar una función al evento submit
