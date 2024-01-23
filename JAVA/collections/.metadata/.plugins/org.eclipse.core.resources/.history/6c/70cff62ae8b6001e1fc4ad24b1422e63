@@ -1,0 +1,17 @@
+package org.generation.collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//*******************Arrays***************//
+		String[] names = {"Jonathan", "Gonzalo", "Fernando,", "Lizbeth", "Arturo", "Uriel", "Martín", "Lucero"};
+		System.out.println(Arrays.toString(names));
+		
+		int ()
+		
+	}
+
+}

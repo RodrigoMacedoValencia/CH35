@@ -1,0 +1,66 @@
+package operadoresLógicos;
+
+public class ejerciciosOperadores {
+
+	public static void main(String[] args) {
+		
+
+		
+		int anios = 5;
+		
+		boolean esInfante = true;
+		
+		boolean costoInfante = anios <= 12 && esInfante;
+		
+		System.out.println ("Es peque"+ costoInfante);
+		
+		//|| or 
+		
+		String cliente = "cliente123";
+		String credenciales = "rodrigo123";
+		
+		boolean credencialCorrecta = cliente.equals("cliente123") && credenciales.equals("rodrigo123");
+		
+		System.out.println ("Las credenciales sí son válidas" + credencialCorrecta);
+	//|| or
+		double costoPasaje = 380.5;
+		int edad = 58;
+		boolean credenInapam = false;
+		
+		boolean descuentoAdultoMayor = edad >= 60 || credenInapam;
+		
+		System.out.println("Tiene descuento"+ costoPasaje);
+		
+		//! not
+		boolean asientosDisponibles = true;
+		boolean libres = true;
+		boolean asientosConDescuento = !libres;
+		
+		System.out.println("Tenemos asientos con descuento"+ asientosConDescuento);
+		
+	/*
+	 Autobús a oaxaca
+costo boleo 350
+boleto*
+62 asientos
+4 destinados a adultxs mayores
+6 a estudiantes
+	  */	
+		
+		int costoBoleto = 350;
+		byte asientos = 62;
+		byte adultosMayores1 = 4;
+		byte estudiambres = 6;
+		
+		boolean asientosDisponibles1 = true;
+		boolean libres1 = true;
+		boolean asientosConDescuento1 = !libres;
+		
+		System.out.println("tenemos asientos con descuento")+ asientosConDescuento1);
+		
+		
+	} 
+
+}
+
+

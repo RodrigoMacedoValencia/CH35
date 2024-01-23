@@ -1,0 +1,14 @@
+package bucles;
+
+public class DoWhile {
+	public static void main(String[] args) {
+		/*Ciclo Do While, evalua la expresión en la parte ingerior del ciclo.
+		 * Por lo tanto, las declaraciones dentro del blo "do" siempre se ejecutan al menos una vez, 
+		 * */
+		//cuenta del 1 al 20
+		int cuenta = 1;
+		do {
+			System.out.println(cuenta);cuenta++;
+		}while (cuenta<0);//output 1 ya se ejecutó al menos 1 vez
+	}
+}

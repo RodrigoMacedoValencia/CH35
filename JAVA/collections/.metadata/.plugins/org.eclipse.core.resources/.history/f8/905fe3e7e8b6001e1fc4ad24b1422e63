@@ -1,0 +1,23 @@
+package org.generation.collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//*******************Arrays***************//
+		String[] names = {"Jonathan", "Gonzalo", "Fernando,", "Lizbeth", "Arturo", "Uriel", "Martín", "Lucero"};
+		System.out.println(Arrays.toString(names));
+		
+		int [] edades = {12, 3, 25, 55, 69, 41, 29, 37, 18};
+		System.out.println (Arrays.toString(edades));
+		
+		//acceder a cada elemento del Array
+		String name1 = names[0];
+		System.out.println("El primer nombre de la lista es " + name1);
+		int edad1 =edades [2];
+		System.out.println ("La edad de "+ name1 + " es "+ edad1);
+	}
+
+}

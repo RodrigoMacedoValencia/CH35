@@ -1,0 +1,43 @@
+package operadoresLógicos;
+
+public class ejerciciosOperadores {
+
+	public static void main(String[] args) {
+		
+
+		
+		int anios = 5;
+		
+		boolean esInfante = true;
+		
+		boolean costoInfante = anios <= 12 && esInfante;
+		
+		System.out.println ("Es peque"+ costoInfante);
+		
+		//|| or 
+		
+		String cliente = "cliente123";
+		String credenciales = "rodrigo123";
+		
+		boolean credencialCorrecta = cliente.equals("cliente123") && credenciales.equals("rodrigo123");
+		
+		System.out.println ("Las credenciales sí son válidas" + credencialCorrecta);
+	//|| or
+		double costoPasaje = 380.5;
+		int edad = 58;
+		boolean credenInapam = false;
+		
+		boolean descuentoAdultoMayor = edad >= 60 || credenInapam;
+		
+		System.out.println("Tiene descuento"+ costoPasaje);
+		
+		//! not
+		
+		boolean asientosDisponibles = true;
+		boolean asientosConDescuento = !libres;
+		
+		System.out.println("Tenemos asientos con descuento"+ asientosConDescuento);
+		
+	} 
+
+}

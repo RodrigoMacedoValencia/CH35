@@ -1,0 +1,38 @@
+package org.generation.collections;
+
+import java.util.Arrays;
+
+public class ArrayListCollections {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//*******************Arrays***************//
+		String[] names = {"Jonathan", "Gonzalo", "Fernando,", "Lizbeth", "Arturo", "Uriel", "Martín", "Lucero"};
+		System.out.println(Arrays.toString(names));
+		
+		int [] edades = {12, 3, 25, 55, 69, 41, 29, 37, 18};
+		System.out.println (Arrays.toString(edades));
+		
+		//acceder a cada elemento del Array
+		String name1 = names[0];
+		System.out.println("El primer nombre de la lista es " + name1);
+		int edad1 =edades [2];
+		System.out.println ("La edad de "+ name1 + " es "+ edad1 + "años");//La edad de Jonathan es de 26 años 
+		
+		//obtener la longitud del Array
+		int longitudNames = names.length;
+		System.out.println ("El array names tiene " + longitudNames + " elementos");
+		
+		//obtener el último elemento
+		//String ultimoElemento = names[longitudNames -1];//la longitud ya vive en la variable "longitudNames
+		String ultimoElemento = names[names.length -1];//la longitud no vive en una variable
+		System.out.println ("El último elemento del array es "+ ultimoElemento); //Lucero
+		
+		//Monstar cada elemento utilizado forEach
+		for (String name : names) {
+			System.out.println(name);
+			
+		}
+	}
+
+}
