@@ -1,3 +1,6 @@
+//Rodrigo Macedo y karen Maldonado 
+//Karen tiene un puntaje 5/5.Avanzado.
+
 const baseEndpoint = 'https://api.github.com';
 const usersEndpoint = `${baseEndpoint}/users`;
 const $n = document.querySelector('.name');//cambiar anotación de clase

@@ -1,3 +1,6 @@
+//Rodrigo Macedo y karen Maldonado 
+//Karen tiene un puntaje 5/5.Avanzado.
+
 // Obtener el formulario y asignar una función al evento submit
 var formulario = document.querySelector(".formulario");
 formulario.onsubmit = function(e) {
